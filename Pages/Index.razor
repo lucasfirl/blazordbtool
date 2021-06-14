@@ -1,0 +1,42 @@
+﻿@page "/"
+
+<style>
+      div {
+        margin-bottom: 10px;
+      }
+      label {
+        display: inline-block;
+        width: 150px;
+        text-align: right;
+      }
+</style>
+
+<h1>SQL Verbindung!</h1>
+
+Bitte geben sie Ihre SQL Verbindungsdaten an
+
+<br>
+<br>
+<br>
+
+<div>
+    <label>Adresse / Hostname:</label>
+    <input type="text" id="dbhost" name="dbhost"/>
+</div>
+
+<div>
+    <label>Datenbank Name:</label>
+    <input type="text" id="dbname" name="dbname"/>
+</div>
+
+<div>
+    <label>User Name:</label>
+    <input type="text" id="dbuser" name="dbuser"/>
+</div>
+
+<div>
+    <label>User Passwort:</label>
+    <input type="text" id="dbpw" name="dbpw"/>
+</div>
+
+<button class="btn btn-primary">Speichern</button>
